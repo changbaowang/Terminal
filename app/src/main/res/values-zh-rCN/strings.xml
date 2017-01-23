@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">HHU</string>
+
+    <string name="kConnection">连接</string>
+    <string name="kFeature">功能</string>
+    <string name="kSettings">设置</string>
+    <string name="kChannel">串口</string>
+    <string name="kWifi">Wifi</string>
+    <string name="kDisConnect">断开连接</string>
+    <string name="kSearch">搜索</string>
+    <string name="kConnected">已连接</string>
+
+    <!-- 功能-->
+    <string name="kRealData">实时数据</string>
+
+    <string name="kRename">修改名称</string>
+
+    <string name="kVersionManage">版本管理</string>
+    <string name="kDeviceOperation">继电器操作</string>
+    <string name="kCheckTime">对时</string>
+    <string name="kDeviceManage">表计档案管理</string>
+
+    <string name="kReset">复位</string>
+    <string name="kLocalUpdate">本地升级</string>
+
+    <!-- 复位功能-->
+    <string name="kConfirmReset">确认复位?</string>
+    <string name="kResetData">数据区初始化</string>
+    <string name="kResetDevice">硬件初始化</string>
+    <string name="kResetAll">参数（除与系统主站通信有关的）及全体数据区初始化</string>
+
+    <!-- 版本管理-->
+    <string name="kManufacturer">厂商代号</string>
+    <string name="kDeviceCode">设备编号</string>
+    <string name="kSoftWareVersion">终端软件版本号</string>
+    <string name="kDeviceSoftWareDate">终端软件发布日期</string>
+    <string name="kDeviceCapacity">终端配置容量信息码</string>
+    <string name="kDeviceProtocolVersion">终端通信协议版本号</string>
+    <string name="kDeviceHardWareVersion">终端硬件版本号</string>
+    <string name="kDeviceHardWareDate">终端硬件发布日期</string>
+
+    <string name="kCommunicationModuleSoftWareVersion">下行通讯模块内部测试软件版本号</string>
+
+    <!-- 继电器操作-->
+    <string name="kRemoteSwitchOff">遥控跳闸</string>
+    <string name="kAllowSwitchOn">允许合闸</string>
+    <string name="kRemoteSwitchOn">遥控合闸</string>
+    <string name="kBreakerState">断路器开关状态</string>
+
+    <!-- 对时-->
+    <string name="kDeviceTime">设备时间</string>
+    <string name="kEditCheckTime">编辑校对时间</string>
+
+    <!-- 本地升级 -->
+    <string name="kSelectFile">选择文件</string>
+    <string name="kNoFile">没有升级文件</string>
+    <string name="kClickToSelect">点击选择文件</string>
+    <string name="kLocalUpdateTip">点击上面选择文件，请确保已经将升级文件保存到HHU/LocalUpdate目录下</string>
+
+
+    <!-- settings-->
+    <string name="kWifiFilter">Wifi过滤</string>
+    <string name="kUpdate">更新</string>
+    <string name="kTimeoutSetting">超时设置</string>
+    <string name="kSecond">秒</string>
+
+    <string name="kCheckUpdateTip">检查更新前请确认网络连接是否可用</string>
+    <string name="kDefault">恢复默认</string>
+    <string name="kCheckUpdate">检查更新</string>
+    <string name="kServerAddress">服务器地址</string>
+
+    <string name="kCheckTimeInvalid">时间格式不正确，请输入正确的时间，如:1970/01/01 08:00:00</string>
+
+    <string name="kCancel">取消</string>
+    <string name="kOk">确定</string>
+    <string name="kTip">提示</string>
+
+    <!-- 电流电压信息 -->
+    <string name="kKwAll">当前总有功功率</string>
+    <string name="kKwA">当前A相有功功率</string>
+    <string name="kKwB">当前B相有功功率</string>
+    <string name="kKwC">当前C相有功功率</string>
+
+    <string name="kKvarAll">当前总无功功率</string>
+    <string name="kKvarA">当前A相无功功率</string>
+    <string name="kKvarB">当前B相无功功率</string>
+    <string name="kKvarC">当前C相无功功率</string>
+
+    <string name="kFactorAll">当前总功率因素</string>
+    <string name="kFactorA">当前A相功率因素</string>
+    <string name="kFactorB">当前B相功率因素</string>
+    <string name="kFactorC">当前C相功率因素</string>
+
+    <string name="kKvaAll">当前总视在功率</string>
+    <string name="kKvaA">当前A相视在功率</string>
+    <string name="kKvaB">当前B相视在功率</string>
+    <string name="kKvaC">当前C相视在功率</string>
+
+    <string name="kIA">当前A相电流</string>
+    <string name="kIB">当前B相电流</string>
+    <string name="kIC">当前C相电流</string>
+    <string name="kIZero">当前零序电流</string>
+
+    <string name="kUA">当前A相电压</string>
+    <string name="kUB">当前B相电压</string>
+    <string name="kUC">当前C相电压</string>
+
+</resources>

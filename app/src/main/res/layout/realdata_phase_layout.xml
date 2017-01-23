@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.hxgroup.www.hhu.ui.component.RealDataView
+    android:id="@+id/realDataView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/division"
+    android:padding="50dp">
+    <!--UabUa-->
+    <LinearLayout
+        android:id="@+id/UabUall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/angle_pointer_width"
+            android:layout_weight="1"
+            android:background="@drawable/pase_angle_uabua_shape"/>
+
+    </LinearLayout>
+    <!--Ub-->
+    <LinearLayout
+        android:id="@+id/Ubll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/angle_pointer_width"
+            android:layout_weight="1"
+            android:background="@drawable/pase_angle_ub_shape"/>
+
+    </LinearLayout>
+    <!--UcbUb-->
+    <LinearLayout
+        android:id="@+id/UcbUbll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/angle_pointer_width"
+            android:layout_weight="1"
+            android:background="@drawable/pase_angle_ucbuc_shape"/>
+
+    </LinearLayout>
+    <!--Ia-->
+    <LinearLayout
+        android:id="@+id/Iall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="30dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/angle_pointer_width"
+            android:layout_weight="1"
+            android:background="@drawable/pase_angle_ia_shape"/>
+
+    </LinearLayout>
+    <!--Ib-->
+    <LinearLayout
+        android:id="@+id/Ibll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="40dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/angle_pointer_width"
+            android:layout_weight="1"
+            android:background="@drawable/pase_angle_ib_shape"/>
+
+    </LinearLayout>
+    <!--Ic-->
+    <LinearLayout
+        android:id="@+id/Icll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="50dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/angle_pointer_width"
+            android:layout_weight="1"
+            android:background="@drawable/pase_angle_ic_shape"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+</cn.hxgroup.www.hhu.ui.component.RealDataView>

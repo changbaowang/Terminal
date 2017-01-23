@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<!--选择连接通道-->
+    <LinearLayout
+        android:id="@+id/connection_unconnected_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/connection_select_channel_layout"/>
+
+    </LinearLayout>
+<!--连接后显示连接状态-->
+    <LinearLayout
+        android:id="@+id/connection_connected_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/connection_connected_state_layout"/>
+
+    </LinearLayout>
+
+</LinearLayout>

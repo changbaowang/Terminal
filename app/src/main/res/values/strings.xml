@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HHU</string>
+    <string name="kConnection">连接</string>
+    <string name="kFeature">功能</string>
+    <string name="kSettings">设置</string>
+    <string name="kChannel">串口</string>
+    <string name="kWifi">Wifi</string>
+    <string name="kDisConnect">断开连接</string>
+</resources>
